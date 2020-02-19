@@ -163,9 +163,23 @@ h5 {
 /* Your code starts here! */
 
 nav {
-    background: blueviolet;
-    padding: 20px;
+    margin: 30px 0px;
 }
+
+nav a {
+    display: inline-block;
+    width: 10%;
+    text-align: center;
+}
+
+
+/*
+p {
+    display: inline-block;
+    margin: 2%;
+    width: 800%;
+    text-align: center;
+}*/
 
 header,
 section,
