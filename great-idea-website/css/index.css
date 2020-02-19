@@ -163,6 +163,14 @@ h5 {
 /* Your code starts here! */
 
 nav {
-    background: palevioletred;
+    background: blueviolet;
     padding: 20px;
+}
+
+header,
+section,
+nav,
+footer {
+    border: 1px solid;
+    margin: 3px;
 }
