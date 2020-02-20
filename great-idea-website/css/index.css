@@ -162,29 +162,91 @@ h5 {
 
 /* Your code starts here! */
 
+html {
+    width: 1024px;
+    margin: 0 auto;
+}
+
 nav {
     display: inline-block;
-    padding: 20px;
+    margin-left: 5%;
+    width: 80%;
+    text-align: center;
 }
 
 a {
-    width: 15%;
-    height: 20px;
+    color: gray;
+    display: inline-block;
+    width: 8%;
+    height: 40px;
     text-align: center;
 }
 
-.logo {}
-
-.intro {
-    font-style: bold;
-    text-align: center;
-    font-size: 30px;
+.introthree {
+    display: inline-block;
+    width: 50%;
 }
 
-header,
-section,
-nav,
-footer {
-    border: 1px solid;
-    margin: 3px;
+.head-img {
+    width: 20%;
+    height: auto;
+}
+
+.introtwo {
+    text-align: center;
+    vertical-align: middle;
+    padding: 50px;
+}
+
+h1 {
+    font-size: 80px;
+    width: 60%;
+    text-align: center;
+}
+
+.secttwo {
+    margin-top: 5%;
+    display: inline-block;
+    width: 40%;
+}
+
+.sectthree {
+    display: inline-block;
+    width: 40%;
+}
+
+.set {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: inline-block;
+    width: 25%;
+}
+
+.settwo {
+    display: inline-block;
+    width: 25%;
+}
+
+.setthree {
+    display: inline-block;
+    width: 25%;
+}
+
+.end {
+    margin-top: 5%;
+    width: 20%;
+}
+
+.copywrite {
+    margin: 30%;
+    text-align: center;
+}
+
+.fixone {
+    border-top: .5px solid black;
+    margin-bottom: 5%;
+}
+
+.fixtwo {
+    border-bottom: .5px solid black;
 }
